@@ -6,5 +6,5 @@
 El proyecto a desarrollar es una aplicacion web para ..., desarrollad en el framewrork Django.
 Los usuarios de la aplicacion pueden registrarse y autentificarse, ademas de consultar las actividades ofertadas por el gimnasio.
 
-
+2. Se cierra esta sesion con dos nuevas urls
 
