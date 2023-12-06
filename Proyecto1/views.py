@@ -45,6 +45,11 @@ def nuevosaludo(request):
     return render(request,"miplantilla.html",dict_)    
 
 
+def electrodomesticos(request):
+    fecha = datetime.datetime.now()
+    return render(request,"electrodomesticos.html",{"fecha_hoy":fecha})
+
+
 
 def despedida(request):
     return HttpResponse("Este es el fin de la primera sesion del Curso")
